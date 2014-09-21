@@ -33,3 +33,8 @@ module.exports = function (jinn, cb) {
 
   copy()
 }
+
+module.exports.command = {
+  flags: '-u, --test',
+  description: 'Adds a testem based test harness for badass testing'
+}
